@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Wood plank texture">
+  <defs>
+    <linearGradient id="woodBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6e4b2e"/>
+      <stop offset="45%" stop-color="#7c5636"/>
+      <stop offset="70%" stop-color="#66452b"/>
+      <stop offset="100%" stop-color="#543821"/>
+    </linearGradient>
+
+    <!-- Long horizontal grain streaks -->
+    <filter id="grainDark" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.006 0.05" numOctaves="5" seed="11" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 0.20
+                0 0 0 0 0.12
+                0 0 0 0 0.06
+                1.1 0 0 0 -0.35"/>
+    </filter>
+
+    <!-- Lighter highlight grain -->
+    <filter id="grainLight" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.005 0.062" numOctaves="4" seed="29" stitchTiles="stitch" result="n2"/>
+      <feColorMatrix in="n2" type="matrix"
+        values="0 0 0 0 0.82
+                0 0 0 0 0.62
+                0 0 0 0 0.38
+                0.9 0 0 0 -0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Base wood tone -->
+  <rect width="1600" height="900" fill="url(#woodBase)"/>
+  <!-- Grain layers -->
+  <rect width="1600" height="900" filter="url(#grainDark)" opacity="0.6"/>
+  <rect width="1600" height="900" filter="url(#grainLight)" opacity="0.35"/>
+
+  <!-- Plank seams -->
+  <g stroke="#2c1c0e" stroke-width="3" opacity="0.4">
+    <line x1="0" y1="180" x2="1600" y2="180"/>
+    <line x1="0" y1="360" x2="1600" y2="360"/>
+    <line x1="0" y1="540" x2="1600" y2="540"/>
+    <line x1="0" y1="720" x2="1600" y2="720"/>
+  </g>
+  <!-- Seam highlights -->
+  <g stroke="#8a6440" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="182" x2="1600" y2="182"/>
+    <line x1="0" y1="362" x2="1600" y2="362"/>
+    <line x1="0" y1="542" x2="1600" y2="542"/>
+    <line x1="0" y1="722" x2="1600" y2="722"/>
+  </g>
+</svg>

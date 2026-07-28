@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Craftsman arch logo concept">
+  <path fill="#263D34" d="M64 8c31 0 56 25 56 56s-25 56-56 56S8 95 8 64 33 8 64 8z"/>
+  <path fill="#EDE2CC" d="M30 98V58c0-22 15-38 34-38s34 16 34 38v40h-9V59c0-17-10-28-25-28S39 42 39 59v39z"/>
+  <path fill="#A9703F" d="M46 98V61c0-12 7-22 18-22s18 10 18 22v37h-9V62c0-8-3-13-9-13s-9 5-9 13v36z"/>
+  <path fill="#EDE2CC" d="M25 98h78v9H25z"/>
+  <path fill="none" stroke="#A9703F" stroke-width="3" d="M34 85h60"/>
+</svg>

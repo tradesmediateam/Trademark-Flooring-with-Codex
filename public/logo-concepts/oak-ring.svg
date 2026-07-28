@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Oak growth ring logo concept">
+  <circle cx="64" cy="64" r="57" fill="#F2E8D5" stroke="#273029" stroke-width="6"/>
+  <g fill="none" stroke="#8A5A32" stroke-linecap="round">
+    <path stroke-width="4" d="M30 70c0-24 16-40 38-40 20 0 34 14 34 33 0 21-17 36-39 36-18 0-31-11-31-27"/>
+    <path stroke-width="3" d="M40 68c0-17 11-28 27-28 15 0 25 10 25 24 0 15-12 25-28 25-13 0-22-8-22-19"/>
+    <path stroke-width="3" d="M51 66c0-10 7-17 17-17 9 0 15 6 15 15 0 10-8 16-18 16-8 0-14-5-14-12"/>
+  </g>
+  <path d="M64 106V65" fill="none" stroke="#273029" stroke-width="5" stroke-linecap="round"/>
+  <path d="m64 75-13-12m13 23 16-16" fill="none" stroke="#273029" stroke-width="4" stroke-linecap="round"/>
+</svg>

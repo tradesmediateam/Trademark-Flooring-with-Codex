@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Heritage tree seal logo concept">
+  <circle cx="64" cy="64" r="57" fill="#F1E8D6" stroke="#252522" stroke-width="6"/>
+  <circle cx="64" cy="64" r="47" fill="none" stroke="#A36F3D" stroke-width="2"/>
+  <path fill="#254438" d="M29 60c0-11 8-19 18-20 3-11 12-17 23-15 8 1 14 6 17 13 9 1 16 9 16 19 0 12-9 21-21 21H48c-11 0-19-8-19-18z"/>
+  <path fill="#76502F" d="M59 53h10c-2 13-2 25 2 38H55c6-14 7-26 4-38z"/>
+  <path fill="none" stroke="#F1E8D6" stroke-width="4" stroke-linecap="round" d="M64 68 50 55m14 11 14-16m-14 8V40"/>
+  <path fill="none" stroke="#A36F3D" stroke-width="3" stroke-linecap="round" d="M38 95h52M45 102h38"/>
+</svg>

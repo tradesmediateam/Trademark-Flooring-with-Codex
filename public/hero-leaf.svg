@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 650" aria-hidden="true">
+  <defs>
+    <linearGradient id="bronze" x1="80" y1="70" x2="720" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9b24"/>
+      <stop offset=".52" stop-color="#ee741c"/>
+      <stop offset="1" stop-color="#cf481d"/>
+    </linearGradient>
+    <clipPath id="leaf">
+      <path d="M410 42 365 171l-67-55 19 120-105-48 60 119-127-22 96 91-132 47 190 29-17 118 128-86 128 86-17-118 190-29-132-47 96-91-127 22 60-119-105 48 19-120-67 55z"/>
+    </clipPath>
+  </defs>
+
+  <path d="M410 42 365 171l-67-55 19 120-105-48 60 119-127-22 96 91-132 47 190 29-17 118 128-86 128 86-17-118 190-29-132-47 96-91-127 22 60-119-105 48 19-120-67 55z"
+        fill="rgba(238,116,28,.08)" stroke="url(#bronze)" stroke-width="25" stroke-linejoin="round"/>
+
+  <g clip-path="url(#leaf)" fill="none" stroke="url(#bronze)" stroke-linecap="round">
+    <!-- Central stem and restrained wood-grain contours -->
+    <path d="M410 545V119" stroke-width="13"/>
+    <path d="M410 428c-42-49-86-87-142-118M410 371c38-45 81-80 139-112M410 476c-53-39-112-64-178-73M410 453c55-34 113-55 177-62" stroke-width="8"/>
+    <path d="M377 502c-10-81-15-162-13-243M443 502c10-81 15-162 13-243" stroke-width="6" opacity=".82"/>
+    <path d="M337 474c-13-59-21-116-22-173M483 474c13-59 21-116 22-173" stroke-width="5" opacity=".68"/>
+    <path d="M292 440c-13-40-25-79-30-118M528 440c13-40 25-79 30-118" stroke-width="4" opacity=".55"/>
+  </g>
+
+  <path d="M286 570h248" fill="none" stroke="url(#bronze)" stroke-width="11" stroke-linecap="round"/>
+</svg>

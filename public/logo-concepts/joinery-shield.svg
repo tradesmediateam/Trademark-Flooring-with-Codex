@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Joinery shield logo concept">
+  <path fill="#252522" d="M64 7 111 24v34c0 30-18 52-47 64C35 110 17 88 17 58V24z"/>
+  <path fill="#F0E5D0" d="M64 18 99 31v26c0 23-12 40-35 51-23-11-35-28-35-51V31z"/>
+  <g stroke="#252522" stroke-width="3" stroke-linejoin="round">
+    <path fill="#9A663A" d="m35 46 29-15 29 15-29 16z"/>
+    <path fill="#B98955" d="M35 46v18l29 16V62z"/>
+    <path fill="#76502F" d="M93 46v18L64 80V62z"/>
+    <path fill="#B98955" d="M35 68v18l29 16V84z"/>
+    <path fill="#76502F" d="M93 68v18l-29 16V84z"/>
+  </g>
+</svg>

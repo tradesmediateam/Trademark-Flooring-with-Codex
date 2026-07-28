@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Parquet compass logo concept">
+  <circle cx="64" cy="64" r="57" fill="#252522"/>
+  <circle cx="64" cy="64" r="48" fill="none" stroke="#B07A45" stroke-width="2"/>
+  <g stroke="#252522" stroke-width="2" stroke-linejoin="round">
+    <path fill="#EDE2CC" d="m64 22 12 30-12 12-12-12z"/>
+    <path fill="#8B5C35" d="m106 64-30 12-12-12 12-12z"/>
+    <path fill="#EDE2CC" d="m64 106-12-30 12-12 12 12z"/>
+    <path fill="#8B5C35" d="M22 64 52 52l12 12-12 12z"/>
+  </g>
+  <circle cx="64" cy="64" r="7" fill="#B58A55"/>
+</svg>
