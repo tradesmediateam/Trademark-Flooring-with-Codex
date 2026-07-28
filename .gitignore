@@ -42,3 +42,5 @@ next-env.d.ts
 # Raw photo source folders (not website assets)
 Vancouver, Burnaby, and the Lower mainland self levelling flooring projects images/
 photos ready for website/
+
+.vercel
