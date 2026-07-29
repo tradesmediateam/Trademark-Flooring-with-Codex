@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { services } from "@/lib/services";
 import { buildMetadata } from "@/lib/seo";
+
+const serviceImages: Record<string, string> = {
+  "self-levelling": "/images/services/self-levelling.png",
+  hardwood: "/images/services/hardwood.jpg",
+  carpet: "/images/services/carpet.jpg",
+  laminate: "/images/services/laminate.jpg",
+  vinyl: "/images/services/vinyl.jpg",
+};
 
 export const metadata: Metadata = buildMetadata({
   title: "Flooring Services Burnaby BC | Trademark Flooring",
@@ -36,7 +45,19 @@ export default function ServicesPage() {
                 key={service.slug}
                 className="flex flex-col border border-[#8a5b3b]/15 bg-white/80 p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
-                <PhotoPlaceholder rounded="rounded-none" className="h-48 mb-6" />
+                {serviceImages[service.slug] ? (
+                  <div className="relative mb-6 h-48 overflow-hidden">
+                    <Image
+                      src={serviceImages[service.slug]}
+                      alt={`${service.title} flooring service`}
+                      fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <PhotoPlaceholder rounded="rounded-none" className="mb-6 h-48" />
+                )}
                 <h3 className="font-serif text-2xl font-bold text-[#713b1d] mb-3">
                   {service.title}
                 </h3>
