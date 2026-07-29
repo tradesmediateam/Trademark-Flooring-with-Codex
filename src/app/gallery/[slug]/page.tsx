@@ -33,13 +33,20 @@ export async function generateMetadata({
 
 export default async function ProjectDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ service?: string }>;
 }) {
   const { slug } = await params;
+  const { service } = await searchParams;
   const project = getProject(slug);
   if (!project) notFound();
 
+  const galleryHref =
+    service && project.services.includes(service)
+      ? `/gallery?service=${encodeURIComponent(service)}`
+      : "/gallery";
   const more = projects.filter((p) => p.slug !== project.slug).slice(0, 3);
 
   return (
@@ -54,7 +61,7 @@ export default async function ProjectDetailPage({
 
       <Section className="bg-white">
         <nav aria-label="Breadcrumb" className="text-sm text-ink-400">
-          <Link href="/gallery" className="hover:text-ink-900">
+          <Link href={galleryHref} className="hover:text-ink-900">
             Gallery
           </Link>
           <span className="mx-2">/</span>

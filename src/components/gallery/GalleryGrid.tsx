@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import type { Project } from "@/lib/projects";
 import { ProjectCard } from "./ProjectCard";
@@ -22,6 +22,13 @@ export function GalleryGrid({
 }) {
   const [active, setActive] = useState<string | null>(null);
 
+  useEffect(() => {
+    const requestedService = new URLSearchParams(window.location.search).get("service");
+    if (requestedService && serviceCovers.some((cover) => cover.service === requestedService)) {
+      setActive(requestedService);
+    }
+  }, [serviceCovers]);
+
   const filtered = useMemo(
     () => (active ? projects.filter((p) => p.services.includes(active)) : projects),
     [projects, active]
@@ -40,7 +47,17 @@ export function GalleryGrid({
             <button
               key={c.service}
               type="button"
-              onClick={() => setActive(selected ? null : c.service)}
+              onClick={() => {
+                const nextService = selected ? null : c.service;
+                setActive(nextService);
+                window.history.replaceState(
+                  window.history.state,
+                  "",
+                  nextService
+                    ? `/gallery?service=${encodeURIComponent(nextService)}`
+                    : "/gallery"
+                );
+              }}
               aria-pressed={selected}
               className={cn(
                 "group relative aspect-[4/3] overflow-hidden rounded-2xl bg-ink-900 shadow-card transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 lg:aspect-[3/4]",
@@ -98,7 +115,7 @@ export function GalleryGrid({
       {filtered.length > 0 ? (
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
+            <ProjectCard key={project.slug} project={project} activeService={active} />
           ))}
         </div>
       ) : (

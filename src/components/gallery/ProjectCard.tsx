@@ -3,12 +3,21 @@ import Link from "next/link";
 import type { Project } from "@/lib/projects";
 import { ProjectImagePlaceholder } from "./ProjectImagePlaceholder";
 
-export function ProjectCard({ project }: { project: Project }) {
+export function ProjectCard({
+  project,
+  activeService,
+}: {
+  project: Project;
+  activeService?: string | null;
+}) {
   const cover = project.images[0];
+  const href = activeService
+    ? `/gallery/${project.slug}?service=${encodeURIComponent(activeService)}`
+    : `/gallery/${project.slug}`;
 
   return (
     <Link
-      href={`/gallery/${project.slug}`}
+      href={href}
       className="group block overflow-hidden rounded-2xl border border-ink-100 bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover"
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-ink-900">
