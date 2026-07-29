@@ -87,6 +87,7 @@ export const projects: Project[] = [
     summary: "Hard-wearing corridor carpet for a Renfrew, Vancouver building.",
     description: "Heavy-traffic corridor carpet installed for a building in the Renfrew area of Vancouver. Trademark Flooring installs commercial and multi-family corridor carpet throughout Vancouver.",
     coverAlt: "Commercial corridor carpet in a Renfrew, Vancouver building",
+    coverImage: { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-thumbnail.jpg", alt: "Commercial corridor carpet installation in Renfrew, Vancouver", orientation: "portrait" },
     images: [
     { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-1.jpg", alt: "Commercial corridor carpet in a Renfrew, Vancouver building", orientation: "portrait" },
     { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-2.jpg", alt: "Commercial corridor carpet in a Renfrew, Vancouver building", orientation: "portrait" },
