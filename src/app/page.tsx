@@ -15,6 +15,39 @@ const serviceThumbnails: Record<string, string> = {
   stairs: "/images/home-services/stairs.jpg",
 };
 
+const galleryPreviewCovers = [
+  {
+    service: "Self-Levelling",
+    src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-1.jpg",
+    alt: "Self-levelling underlayment poured across a Richmond warehouse floor",
+  },
+  {
+    service: "Hardwood",
+    src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-1.jpg",
+    alt: "Acacia prefinished hardwood flooring in a Metro Vancouver home",
+  },
+  {
+    service: "Laminate",
+    src: "/images/gallery/laminate-flooring-coquitlam/laminate-flooring-coquitlam-1.jpg",
+    alt: "Laminate flooring installed in a Coquitlam home",
+  },
+  {
+    service: "Vinyl",
+    src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-1.jpg",
+    alt: "Commercial vinyl flooring in a Vancouver office",
+  },
+  {
+    service: "Carpet",
+    src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-1.jpg",
+    alt: "Commercial corridor carpet in a Renfrew, Vancouver building",
+  },
+  {
+    service: "Stairs",
+    src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-1.jpg",
+    alt: "Hardwood stairs installed in a West Vancouver home",
+  },
+];
+
 export const metadata: Metadata = buildMetadata({
   title: "Flooring Contractors Burnaby BC | Trademark Flooring",
   description: "Trademark Flooring has served Burnaby, BC since 2007 with hardwood, laminate, vinyl, stairs, mouldings, self-levelling, sanding, refinishing, and flooring installation.",
@@ -185,18 +218,23 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {services.map((service) => (
+            {galleryPreviewCovers.map((cover) => (
               <Link
-                key={service.slug}
-                href={`/gallery#${service.slug}`}
+                key={cover.service}
+                href={`/gallery?service=${encodeURIComponent(cover.service)}`}
                 className="group"
               >
-                <PhotoPlaceholder
-                  rounded="rounded-lg"
-                  className="aspect-square mb-4 transition-shadow group-hover:shadow-xl"
-                />
+                <div className="relative mb-4 aspect-square overflow-hidden rounded-lg transition-shadow group-hover:shadow-xl">
+                  <Image
+                    src={cover.src}
+                    alt={cover.alt}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
                 <h3 className="font-serif text-lg font-bold text-amber-900 group-hover:text-orange-500 transition-colors">
-                  {service.title}
+                  {cover.service}
                 </h3>
               </Link>
             ))}
