@@ -102,9 +102,12 @@ export default function HomePage() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/contact"
-                className="inline-flex min-h-14 items-center justify-center bg-[#f58216] px-8 font-serif text-base font-bold text-white transition-colors hover:bg-[#df6810]"
+                className="inline-flex min-h-14 flex-col items-center justify-center bg-[#f58216] px-8 font-serif font-bold text-white transition-colors hover:bg-[#df6810]"
               >
-                Free In-Home Estimate
+                <span className="text-base">Free In-Home Estimate</span>
+                <span className="mt-0.5 text-xs font-semibold uppercase tracking-[0.12em]">
+                  No Obligation
+                </span>
               </Link>
               <Link
                 href="/services"
