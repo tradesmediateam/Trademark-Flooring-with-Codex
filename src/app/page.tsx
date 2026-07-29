@@ -1,9 +1,19 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { services } from "@/lib/services";
 import { buildMetadata } from "@/lib/seo";
+
+const serviceThumbnails: Record<string, string> = {
+  "self-levelling": "/images/home-services/self-levelling.jpg",
+  hardwood: "/images/home-services/hardwood.png",
+  carpet: "/images/home-services/carpet.jpg",
+  laminate: "/images/home-services/laminate.jpg",
+  vinyl: "/images/home-services/vinyl.jpg",
+  stairs: "/images/home-services/stairs.jpg",
+};
 
 export const metadata: Metadata = buildMetadata({
   title: "Flooring Contractors Burnaby BC | Trademark Flooring",
@@ -93,10 +103,22 @@ export default function HomePage() {
               <article key={service.slug} className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-10 items-center border-b border-[#7d4b2b]/15 pb-16 last:border-0`}>
                 {/* Image Circle */}
                 <div className="flex-shrink-0 w-64 h-64">
-                  <PhotoPlaceholder
-                    rounded="rounded-full"
-                    className="w-full h-full shadow-lg ring-4 ring-white"
-                  />
+                  {serviceThumbnails[service.slug] ? (
+                    <div className="relative h-full w-full overflow-hidden rounded-full shadow-lg ring-4 ring-white">
+                      <Image
+                        src={serviceThumbnails[service.slug]}
+                        alt={`${service.title} service`}
+                        fill
+                        sizes="256px"
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : (
+                    <PhotoPlaceholder
+                      rounded="rounded-full"
+                      className="w-full h-full shadow-lg ring-4 ring-white"
+                    />
+                  )}
                 </div>
 
                 {/* Content */}
