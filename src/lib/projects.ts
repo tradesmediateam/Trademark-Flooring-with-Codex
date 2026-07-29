@@ -27,6 +27,7 @@ export type Project = {
   summary: string;
   description: string;
   coverAlt: string;
+  coverImage?: ProjectImage;
   images: ProjectImage[];
   featured?: boolean;
 };
@@ -714,6 +715,7 @@ export const projects: Project[] = [
     summary: "Designer luxury vinyl plank installed in a Burnaby home.",
     description: "Designer luxury vinyl plank installed for a stylish, water-resistant floor in a Burnaby home. Trademark Flooring supplies and installs luxury vinyl across Burnaby and Metro Vancouver.",
     coverAlt: "Designer luxury vinyl plank flooring installed in a Burnaby home",
+    coverImage: { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-1.jpg", alt: "Designer chevron vinyl flooring", orientation: "landscape" },
     images: [
     { src: "/images/gallery/designer-vinyl-flooring-burnaby/designer-vinyl-flooring-burnaby-1.jpg", alt: "Designer luxury vinyl plank flooring installed in a Burnaby home", orientation: "landscape" },
     { src: "/images/gallery/designer-vinyl-flooring-burnaby/designer-vinyl-flooring-burnaby-2.jpg", alt: "Designer luxury vinyl plank flooring installed in a Burnaby home", orientation: "landscape" },

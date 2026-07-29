@@ -10,7 +10,7 @@ export function ProjectCard({
   project: Project;
   activeService?: string | null;
 }) {
-  const cover = project.images[0];
+  const cover = project.coverImage ?? project.images[0];
   const href = activeService
     ? `/gallery/${project.slug}?service=${encodeURIComponent(activeService)}`
     : `/gallery/${project.slug}`;
