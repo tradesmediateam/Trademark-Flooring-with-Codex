@@ -733,7 +733,7 @@ export const projects: Project[] = [
     description: "Hard-wearing commercial vinyl flooring installed throughout a Vancouver office. Trademark Flooring installs luxury vinyl and commercial resilient flooring across Vancouver.",
     coverAlt: "Commercial vinyl flooring installed in a Vancouver office",
     images: [
-    { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-1.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
+    { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-17.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-2.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-3.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-4.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
@@ -749,7 +749,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-14.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-15.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-16.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
-    { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-17.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     ],
   },
 ];
