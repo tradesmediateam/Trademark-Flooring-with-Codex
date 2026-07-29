@@ -30,6 +30,9 @@ export function GalleryGrid({
   return (
     <div>
       {/* Service filter cards */}
+      <p className="mb-5 text-center text-sm text-ink-400">
+        Tap a service to view projects
+      </p>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6">
         {serviceCovers.map((c) => {
           const selected = active === c.service;
@@ -71,10 +74,13 @@ export function GalleryGrid({
         })}
       </div>
 
+      <p className="mt-6 text-center text-sm text-ink-400">
+        Tap a project to view images
+      </p>
+
       {/* Filter status / reset */}
-      <div className="mt-6 flex items-center justify-center gap-3 text-sm">
-        {active ? (
-          <>
+      {active && (
+        <div className="mt-3 flex items-center justify-center gap-3 text-sm">
             <span className="text-ink-500">
               Showing <span className="font-semibold text-ink-800">{active}</span> projects
             </span>
@@ -85,11 +91,8 @@ export function GalleryGrid({
             >
               Show all
             </button>
-          </>
-        ) : (
-          <span className="text-ink-400">Tap a service to filter · showing all projects</span>
-        )}
-      </div>
+        </div>
+      )}
 
       {/* Project grid */}
       {filtered.length > 0 ? (

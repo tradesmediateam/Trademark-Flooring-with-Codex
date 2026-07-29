@@ -23,11 +23,6 @@ export function ProjectCard({ project }: { project: Project }) {
         ) : (
           <ProjectImagePlaceholder label={project.title} />
         )}
-        <div className="absolute left-3 top-3 flex flex-wrap gap-1.5">
-          <span className="rounded-full bg-white/95 px-2.5 py-1 text-xs font-semibold text-ink-900 shadow-sm">
-            {project.sector}
-          </span>
-        </div>
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink-950/80 to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           <span className="text-sm font-semibold text-white">
             View project →
