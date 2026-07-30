@@ -95,7 +95,7 @@ export default function HomePage() {
         <Container>
           <div className="relative z-10 max-w-[680px]">
             <h1 className="max-w-2xl text-4xl font-extrabold uppercase leading-[1.12] tracking-[0.01em] text-white drop-shadow-[0_3px_18px_rgba(0,0,0,.45)] sm:text-5xl md:text-[3.4rem]">
-              Craftsmanship is our<br className="hidden sm:block" /> trademark
+              We make every floor<br className="hidden sm:block" /> look exceptional.
             </h1>
             <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-white drop-shadow-md md:text-lg">
               Trademark Flooring has served Burnaby, BC since 2007. We provide self-levelling, hardwood, laminate, vinyl, stairs, mouldings, sanding, refinishing, and professional flooring installation.
