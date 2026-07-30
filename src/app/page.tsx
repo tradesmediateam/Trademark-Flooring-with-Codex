@@ -219,6 +219,7 @@ export default function HomePage() {
               <div className="absolute bottom-0 left-0 w-20 h-1 bg-orange-500"></div>
             </h2>
             <p className="text-gray-600 text-lg mt-4">See our flooring work in action</p>
+            <p className="mt-2 text-base text-gray-500">Click a category below to view projects.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
