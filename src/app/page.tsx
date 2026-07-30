@@ -218,8 +218,8 @@ export default function HomePage() {
               Flooring Project Gallery
               <div className="absolute bottom-0 left-0 w-20 h-1 bg-orange-500"></div>
             </h2>
-            <p className="mt-4 text-[9px] text-gray-600">See our flooring work in action</p>
-            <p className="mt-2 text-sm text-gray-500">Click below to see images.</p>
+            <p className="mt-4 text-[9px] font-medium tracking-wide text-gray-600">See our work in action</p>
+            <p className="mt-1 text-[8px] tracking-wide text-gray-500">Click below to view images</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
