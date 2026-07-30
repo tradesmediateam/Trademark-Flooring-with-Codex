@@ -129,7 +129,7 @@ export default function HomePage() {
           <div className="mb-16">
             <p className="mb-3 text-xs font-bold uppercase tracking-[.24em] text-[#ca682b]">What we do</p>
             <h2 className="font-serif text-4xl font-bold text-[#713b1d] mb-2 relative inline-block">
-              Burnaby flooring services
+              Vancouver flooring services
               <div className="absolute bottom-0 left-0 w-20 h-1 bg-orange-500"></div>
             </h2>
             <p className="text-[#756b64] text-lg mt-4 max-w-3xl">Complete flooring supply, preparation, installation, restoration, and finishing for homes and businesses across Burnaby and Metro Vancouver.</p>
