@@ -136,8 +136,8 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-20">
-            {services.map((service, index) => (
-              <article key={service.slug} className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-10 items-center border-b border-[#7d4b2b]/15 pb-16 last:border-0`}>
+            {services.map((service) => (
+              <article key={service.slug} className="flex flex-col md:flex-row gap-10 items-center border-b border-[#7d4b2b]/15 pb-16 last:border-0">
                 {/* Image Circle */}
                 <div className="flex-shrink-0 w-64 h-64">
                   {serviceThumbnails[service.slug] ? (
