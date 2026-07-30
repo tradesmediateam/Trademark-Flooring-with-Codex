@@ -7,7 +7,7 @@ import { services } from "@/lib/services";
 import { buildMetadata } from "@/lib/seo";
 
 const serviceImages: Record<string, string> = {
-  "self-levelling": "/images/services/self-levelling.png",
+  "self-levelling": "/images/services/self-levelling.jpg",
   hardwood: "/images/services/hardwood.jpg",
   carpet: "/images/services/carpet.jpg",
   laminate: "/images/services/laminate.jpg",
