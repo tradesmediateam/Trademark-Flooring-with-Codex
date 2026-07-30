@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/Container";
@@ -51,7 +52,19 @@ export default async function ServiceDetailPage({
       <section className="py-16 bg-white">
         <Container>
           <div className="max-w-3xl">
-            <PhotoPlaceholder className="h-96 mb-8" />
+            {service.slug === "mouldings" ? (
+              <div className="relative mb-8 h-96 overflow-hidden rounded-xl">
+                <Image
+                  src="/images/services/mouldings.png"
+                  alt="White baseboard moulding and trim installed beside a wood floor"
+                  fill
+                  sizes="768px"
+                  className="object-cover"
+                />
+              </div>
+            ) : (
+              <PhotoPlaceholder className="mb-8 h-96" />
+            )}
 
 
             <div className="prose prose-lg max-w-none">

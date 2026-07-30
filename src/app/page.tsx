@@ -13,6 +13,7 @@ const serviceThumbnails: Record<string, string> = {
   laminate: "/images/home-services/laminate.jpg",
   vinyl: "/images/home-services/vinyl.jpg",
   stairs: "/images/home-services/stairs.jpg",
+  mouldings: "/images/services/mouldings.png",
 };
 
 const galleryPreviewCovers = [

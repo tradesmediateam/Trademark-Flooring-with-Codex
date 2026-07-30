@@ -13,6 +13,7 @@ const serviceImages: Record<string, string> = {
   laminate: "/images/services/laminate.jpg",
   vinyl: "/images/services/vinyl.jpg",
   stairs: "/images/services/stairs.jpg",
+  mouldings: "/images/services/mouldings.png",
 };
 
 export const metadata: Metadata = buildMetadata({
