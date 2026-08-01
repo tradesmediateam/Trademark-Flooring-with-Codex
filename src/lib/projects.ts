@@ -520,8 +520,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-5.jpg", alt: "Self-levelling underlayment poured across a Richmond warehouse floor", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-6.jpg", alt: "Self-levelling underlayment poured across a Richmond warehouse floor", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-7.jpg", alt: "Self-levelling underlayment poured across a Richmond warehouse floor", orientation: "landscape" },
-    { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-8.jpg", alt: "Self-levelling underlayment poured across a Richmond warehouse floor", orientation: "landscape" },
-    { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-9.jpg", alt: "Self-levelling underlayment poured across a Richmond warehouse floor", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-10.jpg", alt: "Self-levelling underlayment poured across a Richmond warehouse floor", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-11.png", alt: "Richmond warehouse floor prepared for self-levelling underlayment", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-richmond-warehouse/self-levelling-richmond-warehouse-12.png", alt: "Materials staged for self-levelling work in a Richmond warehouse", orientation: "landscape" },
