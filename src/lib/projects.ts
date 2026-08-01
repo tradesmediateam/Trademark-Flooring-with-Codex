@@ -221,8 +221,6 @@ export const projects: Project[] = [
     coverAlt: "Laminate flooring installed in an East Vancouver basement",
     images: [
     { src: "/images/gallery/laminate-flooring-east-vancouver-basement/laminate-flooring-east-vancouver-basement-1.jpg", alt: "Laminate flooring installed in an East Vancouver basement", orientation: "landscape" },
-    { src: "/images/gallery/laminate-flooring-east-vancouver-basement/laminate-flooring-east-vancouver-basement-2.jpg", alt: "Laminate flooring installed in an East Vancouver basement", orientation: "landscape" },
-    { src: "/images/gallery/laminate-flooring-east-vancouver-basement/laminate-flooring-east-vancouver-basement-3.jpg", alt: "Laminate flooring installed in an East Vancouver basement", orientation: "portrait" },
     ],
   },
   {
@@ -270,7 +268,6 @@ export const projects: Project[] = [
     description: "Durable, great-looking laminate flooring installed in a Coquitlam home. Trademark Flooring installs laminate flooring throughout Coquitlam and the Tri-Cities.",
     coverAlt: "Laminate flooring installed in a Coquitlam home",
     images: [
-    { src: "/images/gallery/laminate-flooring-coquitlam/laminate-flooring-coquitlam-1.jpg", alt: "Laminate flooring installed in a Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-coquitlam/laminate-flooring-coquitlam-2.jpg", alt: "Laminate flooring installed in a Coquitlam home", orientation: "landscape" },
     { src: "/images/gallery/laminate-flooring-coquitlam/laminate-flooring-coquitlam-3.jpg", alt: "Laminate flooring installed in a Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-coquitlam/laminate-flooring-coquitlam-4.jpg", alt: "Laminate flooring installed in a Coquitlam home", orientation: "landscape" },
@@ -605,7 +602,6 @@ export const projects: Project[] = [
     description: "Hardwood stair treads and risers installed for an elegant staircase in a West Vancouver home. Trademark Flooring builds premium hardwood stairs across the North Shore and Lower Mainland.",
     coverAlt: "Hardwood stairs installed in a West Vancouver home",
     images: [
-    { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-1.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-2.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-3.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "landscape" },
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-4.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "landscape" },
