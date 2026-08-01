@@ -543,8 +543,8 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment poured through building corridors in Vancouver ahead of new flooring. Trademark Flooring levels multi-family corridors and common areas across Vancouver.",
     coverAlt: "Self-levelling underlayment in a building corridor in Vancouver",
     images: [
+    { src: "/images/gallery/self-levelling-vancouver-corridor/self-levelling-vancouver-corridor-main.png", alt: "Self-levelling underlayment in a building corridor in Vancouver", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-vancouver-corridor/self-levelling-vancouver-corridor-1.jpg", alt: "Self-levelling underlayment in a building corridor in Vancouver", orientation: "portrait" },
-    { src: "/images/gallery/self-levelling-vancouver-corridor/self-levelling-vancouver-corridor-2.jpg", alt: "Self-levelling underlayment in a building corridor in Vancouver", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-vancouver-corridor/self-levelling-vancouver-corridor-3.jpg", alt: "Self-levelling underlayment in a building corridor in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-corridor/self-levelling-vancouver-corridor-4.jpg", alt: "Self-levelling underlayment in a building corridor in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-corridor/self-levelling-vancouver-corridor-5.jpg", alt: "Self-levelling underlayment in a building corridor in Vancouver", orientation: "portrait" },
