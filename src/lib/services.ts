@@ -15,7 +15,7 @@ export const serviceImages: Record<string, string> = {
   carpet: "/images/services/carpet.jpg",
   laminate: "/images/services/laminate.jpg",
   vinyl: "/images/services/vinyl.jpg",
-  stairs: "/images/services/stairs.jpg",
+  stairs: "/images/services/stairs.png",
   mouldings: "/images/services/mouldings.png",
 };
 

@@ -52,13 +52,19 @@ export default async function ServiceDetailPage({
         <Container>
           <div className="max-w-3xl">
             {serviceImages[service.slug] ? (
-              <div className="relative mb-8 h-96 overflow-hidden rounded-xl">
+              <div
+                className={
+                  service.slug === "stairs"
+                    ? "relative mx-auto mb-8 aspect-[2/3] w-full max-w-lg overflow-hidden rounded-xl bg-stone-100"
+                    : "relative mb-8 h-96 overflow-hidden rounded-xl"
+                }
+              >
                 <Image
                   src={serviceImages[service.slug]}
                   alt={`${service.title} flooring service`}
                   fill
                   sizes="768px"
-                  className="object-cover"
+                  className={service.slug === "stairs" ? "object-contain" : "object-cover"}
                 />
               </div>
             ) : null}
