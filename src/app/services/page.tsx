@@ -3,19 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
-import { services } from "@/lib/services";
+import { serviceImages, services } from "@/lib/services";
 import { telHref } from "@/lib/site";
 import { buildMetadata } from "@/lib/seo";
-
-const serviceImages: Record<string, string> = {
-  "self-levelling": "/images/services/self-levelling.jpg",
-  hardwood: "/images/services/hardwood.jpg",
-  carpet: "/images/services/carpet.jpg",
-  laminate: "/images/services/laminate.jpg",
-  vinyl: "/images/services/vinyl.jpg",
-  stairs: "/images/services/stairs.jpg",
-  mouldings: "/images/services/mouldings.png",
-};
 
 export const metadata: Metadata = buildMetadata({
   title: "Flooring Services Burnaby BC | Trademark Flooring",

@@ -9,6 +9,16 @@ export type Service = {
   icon: string;
 };
 
+export const serviceImages: Record<string, string> = {
+  "self-levelling": "/images/services/self-levelling-new.png",
+  hardwood: "/images/services/hardwood.jpg",
+  carpet: "/images/services/carpet.jpg",
+  laminate: "/images/services/laminate.jpg",
+  vinyl: "/images/services/vinyl.jpg",
+  stairs: "/images/services/stairs.jpg",
+  mouldings: "/images/services/mouldings.png",
+};
+
 export const services: Service[] = [
   {
     slug: "self-levelling",
