@@ -337,10 +337,6 @@ export const projects: Project[] = [
     description: "Laminate flooring installed for a Vancouver homeowner — a budget-friendly, hard-wearing finish. Trademark Flooring installs laminate throughout Vancouver.",
     coverAlt: "Laminate flooring installed in a Vancouver home",
     images: [
-    { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-1.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "portrait" },
-    { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-2.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "portrait" },
-    { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-3.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "landscape" },
-    { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-4.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "landscape" },
     { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-5.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-6.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-vancouver/laminate-flooring-vancouver-7.jpg", alt: "Laminate flooring installed in a Vancouver home", orientation: "portrait" },
@@ -427,7 +423,6 @@ export const projects: Project[] = [
     images: [
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-main-new.png", alt: "Finished self-levelling underlayment throughout a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-6.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
-    { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-main.png", alt: "Finished self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-2.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-3.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-4.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
