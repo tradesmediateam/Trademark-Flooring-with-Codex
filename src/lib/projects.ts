@@ -410,11 +410,11 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment pumped and poured on a Davie Street project in downtown Vancouver. Trademark Flooring handles high-rise levelling pours across Vancouver.",
     coverAlt: "Self-levelling underlayment pour on a Davie Street project in Vancouver",
     images: [
+    { src: "/images/gallery/self-levelling-vancouver-davie-street/self-levelling-vancouver-davie-street-5.jpg", alt: "Self-levelling underlayment pour on a Davie Street project in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-davie-street/self-levelling-vancouver-davie-street-1.jpg", alt: "Self-levelling underlayment pour on a Davie Street project in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-davie-street/self-levelling-vancouver-davie-street-2.jpg", alt: "Self-levelling underlayment pour on a Davie Street project in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-davie-street/self-levelling-vancouver-davie-street-3.jpg", alt: "Self-levelling underlayment pour on a Davie Street project in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-davie-street/self-levelling-vancouver-davie-street-4.jpg", alt: "Self-levelling underlayment pour on a Davie Street project in Vancouver", orientation: "portrait" },
-    { src: "/images/gallery/self-levelling-vancouver-davie-street/self-levelling-vancouver-davie-street-5.jpg", alt: "Self-levelling underlayment pour on a Davie Street project in Vancouver", orientation: "portrait" },
     ],
   },
   {
