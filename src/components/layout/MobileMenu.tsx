@@ -124,9 +124,13 @@ export function MobileMenu({
               Email
             </a>
           </div>
-          <p className="pt-1 text-center text-sm text-ink-500">
+          <a
+            href={telHref}
+            className="block min-h-11 rounded-lg pt-3 text-center text-sm font-semibold text-ink-600 hover:bg-ink-50 hover:text-brand-700"
+            aria-label={`Call Trademark Flooring at ${site.phone.display}`}
+          >
             {site.phone.display}
-          </p>
+          </a>
         </div>
       </div>
     </div>

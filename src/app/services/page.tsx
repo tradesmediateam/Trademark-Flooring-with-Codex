@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { services } from "@/lib/services";
+import { telHref } from "@/lib/site";
 import { buildMetadata } from "@/lib/seo";
 
 const serviceImages: Record<string, string> = {
@@ -90,7 +91,7 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+16045550142"
+                href={telHref}
                 className="inline-block bg-white text-amber-950 px-8 py-4 rounded-lg font-semibold hover:bg-amber-50 transition-colors"
               >
                 Call Us Now
