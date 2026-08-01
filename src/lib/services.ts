@@ -10,12 +10,12 @@ export type Service = {
 };
 
 export const serviceImages: Record<string, string> = {
-  "self-levelling": "/images/services/self-levelling-new.png",
-  hardwood: "/images/services/hardwood.jpg",
-  carpet: "/images/services/carpet.jpg",
-  laminate: "/images/services/laminate.jpg",
-  vinyl: "/images/services/vinyl.jpg",
-  stairs: "/images/services/stairs.png",
+  "self-levelling": "/images/home-services/self-levelling.jpg",
+  hardwood: "/images/home-services/hardwood.png",
+  carpet: "/images/home-services/carpet.jpg",
+  laminate: "/images/home-services/laminate.jpg",
+  vinyl: "/images/home-services/vinyl.jpg",
+  stairs: "/images/home-services/stairs.jpg",
   mouldings: "/images/services/mouldings.png",
 };
 

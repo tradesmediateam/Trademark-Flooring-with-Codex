@@ -3,18 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
-import { services } from "@/lib/services";
+import { serviceImages, services } from "@/lib/services";
 import { buildMetadata } from "@/lib/seo";
-
-const serviceThumbnails: Record<string, string> = {
-  "self-levelling": "/images/home-services/self-levelling.jpg",
-  hardwood: "/images/home-services/hardwood.png",
-  carpet: "/images/home-services/carpet.jpg",
-  laminate: "/images/home-services/laminate.jpg",
-  vinyl: "/images/home-services/vinyl.jpg",
-  stairs: "/images/home-services/stairs.jpg",
-  mouldings: "/images/services/mouldings.png",
-};
 
 const galleryPreviewCovers = [
   {
@@ -140,10 +130,10 @@ export default function HomePage() {
               <article key={service.slug} className="flex flex-col md:flex-row gap-10 items-center border-b border-[#7d4b2b]/15 pb-16 last:border-0">
                 {/* Image Circle */}
                 <div className="flex-shrink-0 w-64 h-64">
-                  {serviceThumbnails[service.slug] ? (
+                  {serviceImages[service.slug] ? (
                     <div className="relative h-full w-full overflow-hidden rounded-full shadow-lg ring-4 ring-white">
                       <Image
-                        src={serviceThumbnails[service.slug]}
+                        src={serviceImages[service.slug]}
                         alt={`${service.title} service`}
                         fill
                         sizes="256px"
