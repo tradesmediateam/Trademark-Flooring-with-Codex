@@ -428,12 +428,12 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment installed to flatten the floors of a Vancouver wellness centre before finished flooring. Trademark Flooring levels commercial floors across Vancouver.",
     coverAlt: "Self-levelling underlayment in a Vancouver wellness centre",
     images: [
+    { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-6.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-main.png", alt: "Finished self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-2.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-3.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-4.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-5.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
-    { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-6.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-8.png", alt: "Finished self-levelling floor viewed through a doorway at a Vancouver wellness centre", orientation: "portrait" },
     ],
   },
