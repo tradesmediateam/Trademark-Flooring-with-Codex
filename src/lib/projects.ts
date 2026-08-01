@@ -677,7 +677,6 @@ export const projects: Project[] = [
     description: "Hardwood stairs built and installed in a Port Coquitlam home. Trademark Flooring builds hardwood staircases across the Tri-Cities and Lower Mainland.",
     coverAlt: "Hardwood stairs installed in a Port Coquitlam home",
     images: [
-    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-1.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-4.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-5.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-6.png", alt: "Grey hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
