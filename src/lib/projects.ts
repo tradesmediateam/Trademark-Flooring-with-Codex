@@ -433,7 +433,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-4.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-5.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-6.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
-    { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-7.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-8.png", alt: "Finished self-levelling floor viewed through a doorway at a Vancouver wellness centre", orientation: "portrait" },
     ],
   },
