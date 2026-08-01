@@ -5,7 +5,6 @@ import Image from "next/image";
 import type { ProjectImage } from "@/lib/projects";
 import { ProjectImagePlaceholder } from "./ProjectImagePlaceholder";
 import { CloseIcon, ChevronRightIcon } from "@/components/ui/Icons";
-import { cn } from "@/lib/utils";
 
 /**
  * Image grid for a single project + a full-screen lightbox. Handles hundreds
@@ -15,11 +14,9 @@ import { cn } from "@/lib/utils";
 export function ProjectLightbox({
   images,
   projectTitle,
-  uniformGrid = false,
 }: {
   images: ProjectImage[];
   projectTitle: string;
-  uniformGrid?: boolean;
 }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -60,17 +57,7 @@ export function ProjectLightbox({
             key={i}
             type="button"
             onClick={() => setOpenIndex(i)}
-            className={cn(
-              "group relative overflow-hidden rounded-xl bg-ink-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500",
-              uniformGrid
-                ? "aspect-[4/3]"
-                : img.orientation === "portrait"
-                  ? "aspect-[3/4]"
-                  : "aspect-[4/3]",
-              !uniformGrid &&
-                i === 0 &&
-                "col-span-2 row-span-2 aspect-[4/3] sm:aspect-[16/10]"
-            )}
+            className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-ink-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
             aria-label={`View photo: ${img.alt}`}
           >
             {img.src ? (

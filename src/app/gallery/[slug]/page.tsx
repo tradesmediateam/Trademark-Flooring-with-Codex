@@ -96,13 +96,7 @@ export default async function ProjectDetailPage({
         </div>
 
         <div className="mt-10">
-          <ProjectLightbox
-            images={project.images}
-            projectTitle={project.title}
-            uniformGrid={
-              project.slug === "self-levelling-vancouver-wellness-centre"
-            }
-          />
+          <ProjectLightbox images={project.images} projectTitle={project.title} />
         </div>
       </Section>
 
