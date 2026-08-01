@@ -377,6 +377,7 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment pumped across a Brentwood showroom floor in Burnaby to prep for finished flooring. Trademark Flooring levels commercial and retail floors across Burnaby.",
     coverAlt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby",
     images: [
+    { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-main-new.png", alt: "Finished self-levelling underlayment in a Brentwood showroom in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-main.png", alt: "Self-levelling underlayment being installed across a Brentwood showroom floor in Burnaby", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-1.jpg", alt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-2.jpg", alt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby", orientation: "landscape" },
@@ -505,6 +506,7 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment pumped through a Metrotown high-rise project in Burnaby. Trademark Flooring handles tower levelling pours across Burnaby and Metro Vancouver.",
     coverAlt: "Self-levelling underlayment pour at a Metrotown high-rise in Burnaby",
     images: [
+    { src: "/images/gallery/self-levelling-burnaby-metrotown-highrise/self-levelling-burnaby-metrotown-highrise-main.png", alt: "Finished self-levelling floor with layout strips at a Metrotown high-rise in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-burnaby-metrotown-highrise/self-levelling-burnaby-metrotown-highrise-1.jpg", alt: "Self-levelling underlayment pour at a Metrotown high-rise in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-burnaby-metrotown-highrise/self-levelling-burnaby-metrotown-highrise-2.jpg", alt: "Self-levelling underlayment pour at a Metrotown high-rise in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-burnaby-metrotown-highrise/self-levelling-burnaby-metrotown-highrise-3.jpg", alt: "Self-levelling underlayment pour at a Metrotown high-rise in Burnaby", orientation: "portrait" },
