@@ -452,6 +452,8 @@ export const projects: Project[] = [
     { src: "/images/gallery/self-levelling-delta-house/self-levelling-delta-house-4.jpg", alt: "Self-levelling underlayment poured in a Delta home", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-delta-house/self-levelling-delta-house-5.jpg", alt: "Self-levelling underlayment poured in a Delta home", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-delta-house/self-levelling-delta-house-6.jpg", alt: "Self-levelling underlayment poured in a Delta home", orientation: "portrait" },
+    { src: "/images/gallery/self-levelling-delta-house/self-levelling-delta-house-7.png", alt: "Self-levelling underlayment installation in progress across a Delta home", orientation: "portrait" },
+    { src: "/images/gallery/self-levelling-delta-house/self-levelling-delta-house-8.png", alt: "Fresh self-levelling underlayment poured through a hallway in a Delta home", orientation: "portrait" },
     ],
   },
   {
