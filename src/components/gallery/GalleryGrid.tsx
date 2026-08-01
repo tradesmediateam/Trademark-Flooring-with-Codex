@@ -29,10 +29,28 @@ export function GalleryGrid({
     }
   }, [serviceCovers]);
 
-  const filtered = useMemo(
-    () => (active ? projects.filter((p) => p.services.includes(active)) : projects),
-    [projects, active]
-  );
+  const filtered = useMemo(() => {
+    const serviceOrder = new Map(
+      serviceCovers.map((cover, index) => [cover.service, index])
+    );
+    const orderedProjects = projects
+      .map((project, index) => ({ project, index }))
+      .sort((a, b) => {
+        const rank = (project: Project) =>
+          Math.min(
+            ...project.services.map(
+              (service) => serviceOrder.get(service) ?? serviceCovers.length
+            )
+          );
+
+        return rank(a.project) - rank(b.project) || a.index - b.index;
+      })
+      .map(({ project }) => project);
+
+    return active
+      ? orderedProjects.filter((project) => project.services.includes(active))
+      : orderedProjects;
+  }, [projects, serviceCovers, active]);
 
   return (
     <div>
