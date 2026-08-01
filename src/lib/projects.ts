@@ -678,10 +678,9 @@ export const projects: Project[] = [
     coverAlt: "Hardwood stairs installed in a Port Coquitlam home",
     images: [
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-1.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
-    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-2.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
-    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-3.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-4.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-5.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
+    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-6.png", alt: "Grey hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     ],
   },
   {
