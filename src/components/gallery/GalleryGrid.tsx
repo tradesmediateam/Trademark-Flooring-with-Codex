@@ -33,6 +33,11 @@ export function GalleryGrid({
     const serviceOrder = new Map(
       serviceCovers.map((cover, index) => [cover.service, index])
     );
+    const featuredProjectOrder = new Map([
+      ["self-levelling-richmond-warehouse", 0],
+      ["self-levelling-vancouver-corridor", 1],
+      ["self-levelling-vancouver-west-broadway-highrise", 2],
+    ]);
     const orderedProjects = projects
       .map((project, index) => ({ project, index }))
       .sort((a, b) => {
@@ -43,7 +48,14 @@ export function GalleryGrid({
             )
           );
 
-        return rank(a.project) - rank(b.project) || a.index - b.index;
+        const serviceRank = rank(a.project) - rank(b.project);
+        if (serviceRank !== 0) return serviceRank;
+
+        const featuredRank =
+          (featuredProjectOrder.get(a.project.slug) ?? Number.MAX_SAFE_INTEGER) -
+          (featuredProjectOrder.get(b.project.slug) ?? Number.MAX_SAFE_INTEGER);
+
+        return featuredRank || a.index - b.index;
       })
       .map(({ project }) => project);
 
