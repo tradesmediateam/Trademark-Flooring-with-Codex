@@ -162,6 +162,7 @@ export const projects: Project[] = [
     summary: "Two-and-a-quarter quarter-sawn solid hardwood, site-finished.",
     description: "Traditional 2¼-inch quarter-sawn unfinished solid hardwood installed and site-finished for a classic, durable floor. Trademark Flooring installs and finishes solid hardwood throughout Vancouver.",
     coverAlt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring",
+    coverImage: { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-thumbnail.png", alt: "Quarter-sawn solid hardwood flooring installed in a Vancouver home", orientation: "portrait" },
     images: [
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-1.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "square" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-2.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
