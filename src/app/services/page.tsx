@@ -39,7 +39,11 @@ export default function ServicesPage() {
                 className="flex flex-col border border-[#8a5b3b]/15 bg-white/80 p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 {serviceImages[service.slug] ? (
-                  <div className="relative mb-6 h-48 overflow-hidden">
+                  <Link
+                    href={`/services/${service.slug}`}
+                    aria-label={`View ${service.title}`}
+                    className="relative mb-6 block h-48 overflow-hidden"
+                  >
                     <Image
                       src={serviceImages[service.slug]}
                       alt={`${service.title} flooring service`}
@@ -47,7 +51,7 @@ export default function ServicesPage() {
                       sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                       className="object-cover"
                     />
-                  </div>
+                  </Link>
                 ) : (
                   <PhotoPlaceholder rounded="rounded-none" className="mb-6 h-48" />
                 )}
