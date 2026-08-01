@@ -187,7 +187,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-2.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-3.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-4.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
-    { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-5.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-6.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     ],
   },
@@ -429,6 +428,7 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment installed to flatten the floors of a Vancouver wellness centre before finished flooring. Trademark Flooring levels commercial floors across Vancouver.",
     coverAlt: "Self-levelling underlayment in a Vancouver wellness centre",
     images: [
+    { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-main-new.png", alt: "Finished self-levelling underlayment throughout a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-6.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-main.png", alt: "Finished self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-wellness-centre/self-levelling-vancouver-wellness-centre-2.jpg", alt: "Self-levelling underlayment in a Vancouver wellness centre", orientation: "portrait" },
