@@ -679,7 +679,7 @@ export const projects: Project[] = [
     images: [
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-4.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-5.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
-    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-6.png", alt: "Grey hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
+    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-6.jpg", alt: "Grey hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     ],
   },
   {
