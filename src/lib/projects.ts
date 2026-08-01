@@ -376,6 +376,7 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment pumped across a Brentwood showroom floor in Burnaby to prep for finished flooring. Trademark Flooring levels commercial and retail floors across Burnaby.",
     coverAlt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby",
     images: [
+    { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-main.png", alt: "Self-levelling underlayment being installed across a Brentwood showroom floor in Burnaby", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-1.jpg", alt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-2.jpg", alt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-burnaby-brentwood-showroom/self-levelling-burnaby-brentwood-showroom-3.jpg", alt: "Self-levelling underlayment across a Brentwood showroom floor in Burnaby", orientation: "landscape" },
