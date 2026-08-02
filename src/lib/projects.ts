@@ -172,6 +172,8 @@ export const projects: Project[] = [
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-5.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-6.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-7.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
+    { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-8.png", alt: "Removed hardwood flooring loaded for disposal", orientation: "portrait" },
+    { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-9.png", alt: "Subfloor preparation for quarter-sawn solid hardwood installation", orientation: "portrait" },
     ],
   },
   {
