@@ -151,7 +151,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/hardwood-flooring-new-westminster-house/hardwood-flooring-new-westminster-house-10.jpg", alt: "Solid hardwood flooring installed in a New Westminster home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-flooring-new-westminster-house/hardwood-flooring-new-westminster-house-11.jpg", alt: "Solid hardwood flooring installed in a New Westminster home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-flooring-new-westminster-house/hardwood-flooring-new-westminster-house-12.jpg", alt: "Solid hardwood flooring installed in a New Westminster home", orientation: "landscape" },
-    { src: "/images/gallery/hardwood-flooring-new-westminster-house/hardwood-flooring-new-westminster-house-13.jpg", alt: "Solid hardwood flooring installed in a New Westminster home", orientation: "landscape" },
     ],
   },
   {
