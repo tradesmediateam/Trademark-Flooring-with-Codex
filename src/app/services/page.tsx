@@ -42,14 +42,14 @@ export default function ServicesPage() {
                   <Link
                     href={`/services/${service.slug}`}
                     aria-label={`View ${service.title}`}
-                    className="relative mb-6 block h-48 overflow-hidden"
+                    className="relative mb-6 block h-48 overflow-hidden bg-stone-100"
                   >
                     <Image
                       src={serviceImages[service.slug]}
                       alt={`${service.title} flooring service`}
                       fill
                       sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                      className="object-cover"
+                      className="object-contain"
                     />
                   </Link>
                 ) : (

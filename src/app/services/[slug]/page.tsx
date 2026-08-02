@@ -64,7 +64,7 @@ export default async function ServiceDetailPage({
                   alt={`${service.title} flooring service`}
                   fill
                   sizes="768px"
-                  className={service.slug === "stairs" ? "object-contain" : "object-cover"}
+                  className="object-contain"
                 />
               </div>
             ) : null}

@@ -131,13 +131,13 @@ export default function HomePage() {
                 {/* Image Circle */}
                 <div className="flex-shrink-0 w-64 h-64">
                   {serviceImages[service.slug] ? (
-                    <div className="relative h-full w-full overflow-hidden rounded-full shadow-lg ring-4 ring-white">
+                    <div className="relative h-full w-full overflow-hidden rounded-full bg-stone-100 shadow-lg ring-4 ring-white">
                       <Image
                         src={serviceImages[service.slug]}
                         alt={`${service.title} service`}
                         fill
                         sizes="256px"
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   ) : (
