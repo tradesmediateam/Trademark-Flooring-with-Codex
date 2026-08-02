@@ -3,7 +3,6 @@
 import { useRef, useState, type FormEvent } from "react";
 import { cn } from "@/lib/utils";
 import {
-  projectTypes,
   validateEstimateForm,
   MAX_PHOTOS,
   MAX_PHOTO_SIZE_MB,
@@ -225,35 +224,6 @@ export function EstimateForm() {
             onChange={(e) => update("address", e.target.value)}
           />
         </div>
-      </div>
-
-      <div>
-        <label htmlFor="projectType" className={labelCls}>
-          Type of flooring project
-        </label>
-        <select
-          id="projectType"
-          name="projectType"
-          className={cn(inputCls, "appearance-none bg-white")}
-          value={values.projectType}
-          onChange={(e) => update("projectType", e.target.value)}
-          aria-invalid={!!errors.projectType}
-          aria-describedby={errors.projectType ? "projectType-error" : undefined}
-        >
-          <option value="" disabled>
-            Select a project type
-          </option>
-          {projectTypes.map((type) => (
-            <option key={type} value={type}>
-              {type}
-            </option>
-          ))}
-        </select>
-        {errors.projectType ? (
-          <p id="projectType-error" className={errorCls}>
-            {errors.projectType}
-          </p>
-        ) : null}
       </div>
 
       <div>

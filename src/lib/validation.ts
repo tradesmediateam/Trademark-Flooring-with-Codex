@@ -47,10 +47,6 @@ export function validateEstimateForm(
     errors.email = "Please enter a valid email address.";
   }
 
-  if (!values.projectType) {
-    errors.projectType = "Please select a project type.";
-  }
-
   if (!values.description.trim()) {
     errors.description = "Please add a brief description of your project.";
   } else if (values.description.trim().length < 10) {
