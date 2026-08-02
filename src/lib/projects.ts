@@ -746,7 +746,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-10.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-11.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-12.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
-    { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-13.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-14.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-15.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },
     { src: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-16.jpg", alt: "Commercial vinyl flooring installed in a Vancouver office", orientation: "portrait" },

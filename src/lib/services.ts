@@ -14,7 +14,7 @@ export const serviceImages: Record<string, string> = {
   hardwood: "/images/home-services/hardwood.png",
   carpet: "/images/home-services/carpet.jpg",
   laminate: "/images/home-services/laminate.jpg",
-  vinyl: "/images/home-services/vinyl.jpg",
+  vinyl: "/images/gallery/vinyl-flooring-vancouver-office/vinyl-flooring-vancouver-office-17.jpg",
   stairs: "/images/home-services/stairs.jpg",
   mouldings: "/images/services/mouldings.png",
 };
