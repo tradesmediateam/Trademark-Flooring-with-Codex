@@ -354,7 +354,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/self-levelling-vancouver-broadway-alma/self-levelling-vancouver-broadway-alma-1.jpg", alt: "Self-levelling underlayment poured near Broadway and Alma in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-broadway-alma/self-levelling-vancouver-broadway-alma-2.jpg", alt: "Self-levelling underlayment poured near Broadway and Alma in Vancouver", orientation: "portrait" },
     { src: "/images/gallery/self-levelling-vancouver-broadway-alma/self-levelling-vancouver-broadway-alma-3.png", alt: "Self-levelling underlayment poured near Broadway and Alma in Vancouver", orientation: "portrait" },
-    { src: "/images/gallery/self-levelling-vancouver-broadway-alma/self-levelling-vancouver-broadway-alma-4.png", alt: "Finished self-levelling floor near Broadway and Alma in Vancouver", orientation: "portrait" },
     ],
   },
   {
