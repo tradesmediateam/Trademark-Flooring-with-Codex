@@ -92,7 +92,6 @@ export const projects: Project[] = [
     { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-1.jpg", alt: "Commercial corridor carpet in a Renfrew, Vancouver building", orientation: "portrait" },
     { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-2.jpg", alt: "Commercial corridor carpet in a Renfrew, Vancouver building", orientation: "portrait" },
     { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-3.jpg", alt: "Commercial corridor carpet in a Renfrew, Vancouver building", orientation: "portrait" },
-    { src: "/images/gallery/commercial-carpet-vancouver-renfrew-corridor/commercial-carpet-vancouver-renfrew-corridor-4.jpg", alt: "Commercial corridor carpet in a Renfrew, Vancouver building", orientation: "portrait" },
     ],
   },
   {
