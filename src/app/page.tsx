@@ -88,7 +88,7 @@ export default function HomePage() {
               Craftsmanship is<br className="hidden sm:block" /> our trademark.
             </h1>
             <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-white drop-shadow-md md:text-lg">
-              Serving Burnaby, Vancouver and the Lower Mainland since 2007. Every project is personally overseen by the owner, with craftsmanship and attention to detail from start to finish.
+              Serving Vancouver, Burnaby and the Lower Mainland since 2007. Every project is personally overseen by the owner and built on something simple: honest work, respect for our clients, and pride in doing things the right way. These are the values we grew up with, and the ones we still bring to every job
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
