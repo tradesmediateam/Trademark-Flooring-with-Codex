@@ -167,7 +167,6 @@ export const projects: Project[] = [
     images: [
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-main.png", alt: "Baby sitting on quarter-sawn solid hardwood flooring", orientation: "portrait" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-1.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "square" },
-    { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-2.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-3.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-4.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
     { src: "/images/gallery/quarter-sawn-solid-hardwood-vancouver/quarter-sawn-solid-hardwood-vancouver-5.jpg", alt: "Two-and-a-quarter-inch quarter-sawn solid hardwood flooring", orientation: "portrait" },
