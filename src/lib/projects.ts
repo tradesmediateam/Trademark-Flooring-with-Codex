@@ -607,7 +607,6 @@ export const projects: Project[] = [
     coverAlt: "Hardwood stairs installed in a West Vancouver home",
     images: [
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-main.png", alt: "Finished hardwood staircase in a West Vancouver home", orientation: "portrait" },
-    { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-2.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-3.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "landscape" },
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-4.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "landscape" },
     { src: "/images/gallery/hardwood-stairs-west-vancouver/hardwood-stairs-west-vancouver-5.jpg", alt: "Hardwood stairs installed in a West Vancouver home", orientation: "portrait" },
