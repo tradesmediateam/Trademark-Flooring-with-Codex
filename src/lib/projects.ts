@@ -124,6 +124,9 @@ export const projects: Project[] = [
     { src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-17.jpg", alt: "Acacia prefinished hardwood flooring installed in a Metro Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-18.jpg", alt: "Acacia prefinished hardwood flooring installed in a Metro Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-20.png", alt: "Acacia hardwood staircase installed in a Metro Vancouver home", orientation: "portrait" },
+    { src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-21.png", alt: "Acacia hardwood upper hallway and stair railing", orientation: "portrait" },
+    { src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-22.png", alt: "Acacia hardwood hallway beside the staircase", orientation: "portrait" },
+    { src: "/images/gallery/acacia-prefinished-hardwood-vancouver/acacia-prefinished-hardwood-vancouver-23.png", alt: "Acacia hardwood flooring installed through an upstairs hallway", orientation: "portrait" },
     ],
   },
   {
