@@ -632,7 +632,6 @@ export const projects: Project[] = [
     description: "Hardwood stairs installed to match a home's flooring in Vancouver. Trademark Flooring builds and refinishes hardwood staircases throughout Vancouver.",
     coverAlt: "Hardwood stairs installed in a Vancouver home",
     images: [
-    { src: "/images/gallery/hardwood-stairs-vancouver/hardwood-stairs-vancouver-1.jpg", alt: "Hardwood stairs installed in a Vancouver home", orientation: "landscape" },
     { src: "/images/gallery/hardwood-stairs-vancouver/hardwood-stairs-vancouver-2.jpg", alt: "Hardwood stairs installed in a Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-vancouver/hardwood-stairs-vancouver-3.jpg", alt: "Hardwood stairs installed in a Vancouver home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-vancouver/hardwood-stairs-vancouver-4.jpg", alt: "Hardwood stairs installed in a Vancouver home", orientation: "portrait" },
