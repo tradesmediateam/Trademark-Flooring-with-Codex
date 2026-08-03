@@ -188,7 +188,7 @@ export default function HomePage() {
               Flooring craftsmanship established in 2007
             </h2>
             <p className="text-lg md:text-xl mb-8 leading-relaxed text-amber-50">
-              From floor preparation and self-levelling to hardwood refinishing and complete installation, our team brings proven care to every Burnaby flooring project.
+              From floor preparation and self-levelling to complete flooring installation, our team brings proven craftsmanship to every flooring project across Vancouver, Burnaby, and the Lower Mainland.
             </p>
             <Link
               href="/contact"
