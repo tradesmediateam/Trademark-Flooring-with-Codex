@@ -391,6 +391,7 @@ export const projects: Project[] = [
     description: "Self-levelling underlayment poured in a downtown Vancouver condo ahead of new flooring. Trademark Flooring levels condo and tower floors throughout downtown Vancouver.",
     coverAlt: "Self-levelling underlayment in a downtown Vancouver condo",
     images: [
+    { src: "/images/gallery/self-levelling-downtown-vancouver-condo/self-levelling-downtown-vancouver-condo-main.png", alt: "Finished self-levelling underlayment in a downtown Vancouver condo", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-downtown-vancouver-condo/self-levelling-downtown-vancouver-condo-1.jpg", alt: "Self-levelling underlayment in a downtown Vancouver condo", orientation: "landscape" },
     { src: "/images/gallery/self-levelling-downtown-vancouver-condo/self-levelling-downtown-vancouver-condo-2.jpg", alt: "Bare concrete condo floor prepared for self-levelling in downtown Vancouver", orientation: "landscape" },
     ],
