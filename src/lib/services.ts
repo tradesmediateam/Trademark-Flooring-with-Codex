@@ -23,7 +23,7 @@ export const services: Service[] = [
   {
     slug: "self-levelling",
     title: "Self-Levelling",
-    description: "Professional self-levelling concrete and substrate preparation for flawless flooring installation.",
+    description: "Professional self-levelling and substrate preparation for exceptional flooring results.",
     icon: "level",
   },
   {
