@@ -29,7 +29,7 @@ export const services: Service[] = [
   {
     slug: "hardwood",
     title: "Hardwood Flooring",
-    description: "Beautiful hardwood flooring installation, sanding, refinishing, and restoration.",
+    description: "Beautiful hardwood flooring installation.",
     icon: "hardwood",
   },
   {
