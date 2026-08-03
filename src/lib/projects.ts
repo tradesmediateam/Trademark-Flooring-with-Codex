@@ -397,6 +397,20 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "self-levelling-co-op-downtown-vancouver",
+    title: "Self-Levelling Pouring for a Co-op in Downtown Vancouver",
+    location: "Vancouver",
+    sector: "Multi-Family",
+    services: ["Self-Levelling"],
+    summary: "Self-levelling pour for a co-op in downtown Vancouver.",
+    description: "Self-levelling underlayment poured throughout a downtown Vancouver co-op to create a smooth, finish-ready floor.",
+    coverAlt: "Self-levelling pour in a downtown Vancouver co-op",
+    images: [
+    { src: "/images/gallery/self-levelling-co-op-downtown-vancouver/self-levelling-co-op-downtown-vancouver-1.png", alt: "Self-levelling underlayment poured through a downtown Vancouver co-op", orientation: "portrait" },
+    { src: "/images/gallery/self-levelling-co-op-downtown-vancouver/self-levelling-co-op-downtown-vancouver-2.png", alt: "Finished self-levelling pour across rooms in a downtown Vancouver co-op", orientation: "portrait" },
+    ],
+  },
+  {
     slug: "self-levelling-vancouver-davie-street",
     title: "Self-Levelling — Davie Street, Vancouver",
     location: "Vancouver",
