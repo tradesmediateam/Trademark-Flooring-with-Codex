@@ -81,7 +81,7 @@ export default function ServicesPage() {
               Free In-Home, No-Obligation Estimate
             </h2>
             <p className="text-lg text-amber-100 mb-10 leading-relaxed">
-              Tell us about your Burnaby flooring project and we&apos;ll provide clear recommendations for the right materials, preparation, and installation.
+              Tell us about your flooring project and we&apos;ll provide clear recommendations for the right materials, preparation, and installation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
