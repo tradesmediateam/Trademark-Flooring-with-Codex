@@ -122,7 +122,7 @@ export default function HomePage() {
               Vancouver flooring services
               <div className="absolute bottom-0 left-0 w-20 h-1 bg-orange-500"></div>
             </h2>
-            <p className="text-[#756b64] text-lg mt-4 max-w-3xl">Complete flooring services, from material supply and floor preparation to expert installation and finishing, for homeowners, businesses, retail, and multifamily projects across Vancouver, Burnaby, and the Lower Mainland.</p>
+            <p className="text-[#756b64] text-lg mt-4 max-w-3xl">Complete flooring services, from supply and install to install only, with every stage professionally handled, from floor preparation to the final finish, for homes, businesses, retail spaces, and multifamily projects across Vancouver, Burnaby, and the Lower Mainland.</p>
           </div>
 
           <div className="space-y-20">
