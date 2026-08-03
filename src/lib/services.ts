@@ -53,7 +53,7 @@ export const services: Service[] = [
   {
     slug: "stairs",
     title: "Stairs & Treads",
-    description: "Custom stair installation only.",
+    description: "Expert stair installation.",
     icon: "stairs",
   },
   {
