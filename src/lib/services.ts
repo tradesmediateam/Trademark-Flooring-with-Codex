@@ -41,7 +41,7 @@ export const services: Service[] = [
   {
     slug: "laminate",
     title: "Laminate Flooring",
-    description: "Durable laminate flooring installation and replacement.",
+    description: "Professional laminate flooring installation for homes and commercial spaces.",
     icon: "laminate",
   },
   {
