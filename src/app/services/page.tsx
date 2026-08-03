@@ -21,9 +21,9 @@ export default function ServicesPage() {
         <Container>
           <div className="text-center">
             <p className="text-xs font-bold uppercase tracking-[.24em] text-[#cf692a]">What we do</p>
-            <h1 className="mt-3 font-serif text-4xl font-bold text-[#633318] md:text-5xl">Burnaby Flooring Services</h1>
+            <h1 className="mt-3 font-serif text-4xl font-bold text-[#633318] md:text-5xl">Vancouver Flooring Services</h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-[#776e67]">
-              Complete flooring preparation, supply, installation, restoration, and finishing since 2007.
+              Complete flooring services from A to Z.
             </p>
           </div>
         </Container>
