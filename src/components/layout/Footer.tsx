@@ -14,7 +14,7 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-8">
           {/* Brand + contact */}
           <div className="lg:col-span-4">
-            <Logo variant="light" />
+            <Logo variant="dark" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-ink-300">
               Burnaby flooring craftsmanship since {site.foundedYear}. Hardwood, laminate, vinyl, stairs, mouldings, and self-levelling throughout Metro Vancouver.
             </p>
