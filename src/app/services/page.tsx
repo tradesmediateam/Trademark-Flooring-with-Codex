@@ -23,7 +23,7 @@ export default function ServicesPage() {
             <p className="text-xs font-bold uppercase tracking-[.24em] text-[#cf692a]">What we do</p>
             <h1 className="mt-3 font-serif text-4xl font-bold text-[#633318] md:text-5xl">Vancouver Flooring Services</h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-[#776e67]">
-              Complete flooring services from A to Z.
+              Complete flooring services from start to finish.
             </p>
           </div>
         </Container>
