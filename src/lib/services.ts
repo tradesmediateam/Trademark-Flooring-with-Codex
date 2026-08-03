@@ -35,13 +35,13 @@ export const services: Service[] = [
   {
     slug: "carpet",
     title: "Carpet Installation",
-    description: "Premium carpet installation for homes and commercial spaces.",
+    description: "Premium carpet installation.",
     icon: "carpet",
   },
   {
     slug: "laminate",
     title: "Laminate Flooring",
-    description: "Professional laminate flooring installation for homes and commercial spaces.",
+    description: "Professional laminate flooring installation.",
     icon: "laminate",
   },
   {
