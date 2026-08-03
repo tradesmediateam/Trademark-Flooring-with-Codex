@@ -35,7 +35,7 @@ export const services: Service[] = [
   {
     slug: "carpet",
     title: "Carpet Installation",
-    description: "Premium carpet installation and removal services for homes and commercial spaces.",
+    description: "Premium carpet installation for homes and commercial spaces.",
     icon: "carpet",
   },
   {
