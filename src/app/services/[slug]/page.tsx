@@ -81,13 +81,24 @@ export default async function ServiceDetailPage({
               <h3 className="font-serif text-2xl font-bold text-amber-950 mt-8 mb-4">
                 About This Service
               </h3>
-              <p className="text-gray-600 mb-6">
-                {service.slug === "self-levelling"
-                  ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. True mastery comes down to knowing exactly how and where to pour."
-                  : service.slug === "hardwood"
-                  ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
-                  : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
-              </p>
+              {service.slug === "carpet" ? (
+                <>
+                  <p className="text-gray-600 mb-6">
+                    We provide professional installation for residential carpet, commercial carpet, and carpet tiles, including residential homes, retail, commercial spaces, stairs, and condos.
+                  </p>
+                  <p className="text-gray-600 mb-6">
+                    Our work focuses on clean floor prep, smart seam placement, quality underpad, precise stretching, proper carpet kicking, and glue-down methods for commercial applications, giving each installation a clean, comfortable, longer-lasting finish.
+                  </p>
+                </>
+              ) : (
+                <p className="text-gray-600 mb-6">
+                  {service.slug === "self-levelling"
+                    ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. True mastery comes down to knowing exactly how and where to pour."
+                    : service.slug === "hardwood"
+                    ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
+                    : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
+                </p>
+              )}
 
               <h3 className="font-serif text-2xl font-bold text-amber-950 mt-8 mb-4">
                 Why Choose Trademark Flooring?
