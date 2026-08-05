@@ -83,10 +83,10 @@ export default async function ServiceDetailPage({
               </h3>
               {service.slug === "carpet" ? (
                 <>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-gray-600 leading-relaxed mb-4">
                     We provide professional installation for residential carpet, commercial carpet, and carpet tiles, including residential homes, retail, commercial spaces, stairs, and condos.
                   </p>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-gray-600 leading-relaxed mb-6">
                     Our work focuses on clean floor prep, smart seam placement, quality underpad, precise stretching, proper carpet kicking, and glue-down methods for commercial applications, giving each installation a clean, comfortable, longer-lasting finish.
                   </p>
                 </>
