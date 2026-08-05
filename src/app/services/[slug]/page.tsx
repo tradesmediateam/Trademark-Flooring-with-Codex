@@ -93,7 +93,7 @@ export default async function ServiceDetailPage({
               ) : (
                 <p className="text-gray-600 mb-6">
                   {service.slug === "self-levelling"
-                    ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. True mastery comes down to knowing exactly how and where to pour."
+                    ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. Pouring is a craft of consistency, timing, and control. Knowing exactly where and how to pour is the key to a smooth, flat, leveled finish. That's the Trademark standard, poured into every floor."
                     : service.slug === "hardwood"
                     ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
                     : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
