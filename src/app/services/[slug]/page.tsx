@@ -100,6 +100,8 @@ export default async function ServiceDetailPage({
                     ? "Laminate flooring delivers the warmth and character of hardwood without the high maintenance. A beautiful finish starts with proper floor prep, precise layout, tight locking joints, and careful attention to every detail, creating a floor that looks beautiful, feels solid underfoot, and is built to perform for years."
                     : service.slug === "vinyl"
                     ? "Vinyl flooring blends modern style with exceptional durability and 100% waterproof performance. Available in SPC, LVT, loose lay, and more, it offers outstanding versatility with a wide range of colours, textures, and wood looks to complement virtually any space. Because it's thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years."
+                    : service.slug === "stairs"
+                    ? "A staircase is often the centerpiece of the home, setting the tone the moment you walk in. Whether in hardwood, laminate, vinyl, or carpet, each staircase is crafted with meticulous detailing and seamless flow. The kind of work that doesn't shout, but elevates the space."
                     : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
                 </p>
               )}
