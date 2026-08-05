@@ -98,6 +98,8 @@ export default async function ServiceDetailPage({
                     ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
                     : service.slug === "laminate"
                     ? "Laminate flooring delivers the warmth and character of hardwood without the high maintenance. A beautiful finish starts with proper floor prep, precise layout, tight locking joints, and careful attention to every detail, creating a floor that looks beautiful, feels solid underfoot, and is built to perform for years."
+                    : service.slug === "vinyl"
+                    ? "Vinyl flooring blends modern style with exceptional durability and 100% waterproof performance. Available in SPC, LVT, loose lay, and more, it offers outstanding versatility with a wide range of colours, textures, and wood looks to complement virtually any space. Because it's thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years."
                     : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
                 </p>
               )}
