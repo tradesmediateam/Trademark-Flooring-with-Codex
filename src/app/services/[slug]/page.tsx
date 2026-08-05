@@ -91,6 +91,9 @@ export default async function ServiceDetailPage({
                 Why Choose Trademark Flooring?
               </h3>
               <ul className="list-disc list-inside text-gray-600 space-y-2">
+                {service.slug === "self-levelling" ? (
+                  <li>Professional levelling and pouring expertise</li>
+                ) : null}
                 <li>Professional installation and expertise</li>
                 <li>Quality materials and workmanship</li>
                 <li>Attention to detail on every project</li>
