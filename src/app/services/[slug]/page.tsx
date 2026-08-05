@@ -96,6 +96,8 @@ export default async function ServiceDetailPage({
                     ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. Pouring is a craft of consistency, timing, and control. Knowing exactly where and how to pour is the key to a smooth, flat, leveled finish. That's the Trademark standard, poured into every floor."
                     : service.slug === "hardwood"
                     ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
+                    : service.slug === "laminate"
+                    ? "Laminate flooring delivers the warmth and character of hardwood without the high maintenance. A beautiful finish starts with proper floor prep, precise layout, tight locking joints, and careful attention to every detail, creating a floor that looks beautiful, feels solid underfoot, and is built to perform for years."
                     : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
                 </p>
               )}
