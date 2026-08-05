@@ -82,9 +82,9 @@ export default async function ServiceDetailPage({
                 About This Service
               </h3>
               <p className="text-gray-600 mb-6">
-                Add detailed information about {service.title.toLowerCase()} here. Describe the process,
-                benefits, and why this service is important for your flooring needs. Include pricing
-                information, timelines, and any special considerations.
+                {service.slug === "self-levelling"
+                  ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. True mastery comes down to knowing exactly how and where to pour."
+                  : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
               </p>
 
               <h3 className="font-serif text-2xl font-bold text-amber-950 mt-8 mb-4">
