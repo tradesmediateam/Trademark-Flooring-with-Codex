@@ -90,6 +90,15 @@ export default async function ServiceDetailPage({
                     Our work focuses on clean floor prep, smart seam placement, quality underpad, precise stretching, proper carpet kicking, and glue-down methods for commercial applications, giving each installation a clean, comfortable, longer-lasting finish.
                   </p>
                 </>
+              ) : service.slug === "stairs" ? (
+                <>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    A staircase is often the centerpiece of a home, setting the tone the moment you walk through the door. Whether in hardwood, laminate, vinyl, or carpet, a beautifully crafted staircase brings character, elegance, and lasting value to your space.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-6">
+                    Every staircase is unique. Each one requires careful planning, precision, and uncompromising attention to detail, where every cut, angle and transition works together to create a flawless result. The finished staircase becomes more than a functional feature. It becomes a defining architectural element that elevates the beauty and sophistication of the entire home.
+                  </p>
+                </>
               ) : (
                 <p className="text-gray-600 mb-6">
                   {service.slug === "self-levelling"
@@ -100,8 +109,6 @@ export default async function ServiceDetailPage({
                     ? "Laminate flooring delivers the warmth and character of hardwood without the high maintenance. A beautiful finish starts with proper floor prep, precise layout, tight locking joints, and careful attention to every detail, creating a floor that looks beautiful, feels solid underfoot, and is built to perform for years."
                     : service.slug === "vinyl"
                     ? "Vinyl flooring blends modern style with exceptional durability and 100% waterproof performance. Available in SPC, LVT, loose lay, and more, it offers outstanding versatility with a wide range of colours, textures, and wood looks to complement virtually any space. Because it's thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years."
-                    : service.slug === "stairs"
-                    ? "A staircase is often the centerpiece of a home, setting the tone the moment you walk through the door. Whether in hardwood, laminate, vinyl, or carpet, a beautifully crafted staircase brings character, elegance, and lasting value to your space. Every staircase is unique. Each one requires careful planning, precision, and uncompromising attention to detail, where every cut, angle and transition works together to create a flawless result. The finished staircase becomes more than a functional feature. It becomes a defining architectural element that elevates the beauty and sophistication of the entire home."
                     : service.slug === "mouldings"
                     ? "It's the finishing touch that brings the whole room together. From baseboards and casings to moldings, every detail is carefully fitted, smoothly caulked, professionally painted, and finished with precision, creating clean lines and a polished look."
                     : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
