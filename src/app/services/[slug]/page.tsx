@@ -105,7 +105,7 @@ export default async function ServiceDetailPage({
                     Vinyl flooring blends modern style with exceptional durability and 100% waterproof performance. Available in SPC, LVT, loose lay, and more, it offers outstanding versatility with a wide range of colours, textures, and wood looks to complement virtually any space.
                   </p>
                   <p className="text-gray-600 leading-relaxed mb-6">
-                    Because it's thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years.
+                    Because it&apos;s thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years.
                   </p>
                 </>
               ) : (
