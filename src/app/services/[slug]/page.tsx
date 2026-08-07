@@ -108,12 +108,19 @@ export default async function ServiceDetailPage({
                     Because it&apos;s thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years.
                   </p>
                 </>
+              ) : service.slug === "hardwood" ? (
+                <>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Hardwood brings a warmth and timeless character to a home that feels timeless the moment you walk in. It ages with the life of the space, carrying a natural elegance that&apos;s hard to really replicate.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-6">
+                    We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship.
+                  </p>
+                </>
               ) : (
                 <p className="text-gray-600 mb-6">
                   {service.slug === "self-levelling"
                     ? "Precision prep, a rock-solid primed bond, and perfectly timed pours. That's how we deliver flat, smooth, durable floors. Pouring is a craft of consistency, timing, and control. Knowing exactly where and how to pour is the key to a smooth, flat, leveled finish. That's the Trademark standard, poured into every floor."
-                    : service.slug === "hardwood"
-                    ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
                     : service.slug === "laminate"
                     ? "Laminate flooring delivers the warmth and character of hardwood without the high maintenance. A beautiful finish starts with proper floor prep, precise layout, tight locking joints, and careful attention to every detail, creating a floor that looks beautiful, feels solid underfoot, and is built to perform for years."
                     : service.slug === "mouldings"
