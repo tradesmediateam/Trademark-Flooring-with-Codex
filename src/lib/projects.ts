@@ -695,7 +695,19 @@ export const projects: Project[] = [
     images: [
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-4.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
     { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-5.jpg", alt: "Hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
-    { src: "/images/gallery/hardwood-stairs-port-coquitlam/hardwood-stairs-port-coquitlam-6.jpg", alt: "Grey hardwood stairs installed in a Port Coquitlam home", orientation: "portrait" },
+    ],
+  },
+  {
+    slug: "laminate-stairs-coquitlam-house",
+    title: "Laminate Stairs — Coquitlam House",
+    location: "Coquitlam",
+    sector: "Residential",
+    services: ["Stairs"],
+    summary: "Laminate staircase installed in a Coquitlam house.",
+    description: "Laminate stairs built and installed in a Coquitlam house. Trademark Flooring builds laminate staircases across the Tri-Cities and Lower Mainland.",
+    coverAlt: "Laminate stairs installed in a Coquitlam house",
+    images: [
+    { src: "/images/gallery/laminate-stairs-coquitlam-house/laminate-stairs-coquitlam-house-1.jpg", alt: "Laminate stairs installed in a Coquitlam house", orientation: "portrait" },
     ],
   },
   {
