@@ -186,7 +186,6 @@ export const projects: Project[] = [
     description: "Durable laminate flooring installed in a Brentwood condo in Burnaby. Trademark Flooring installs laminate in condos and towers across Burnaby and Metro Vancouver.",
     coverAlt: "Laminate flooring installed in a Brentwood condo in Burnaby",
     images: [
-    { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-1.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-2.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-3.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
     { src: "/images/gallery/laminate-flooring-burnaby-brentwood-condo/laminate-flooring-burnaby-brentwood-condo-4.jpg", alt: "Laminate flooring installed in a Brentwood condo in Burnaby", orientation: "portrait" },
