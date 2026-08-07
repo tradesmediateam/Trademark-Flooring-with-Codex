@@ -84,6 +84,9 @@ export default async function ServiceDetailPage({
               {service.slug === "carpet" ? (
                 <>
                   <p className="text-gray-600 leading-relaxed mb-4">
+                    Carpet adds warmth and comfort you feel with every single step. It softens a space and makes it feel calm and inviting. It helps with sound and gives rooms a finished, cared-for feel, whether at home or at work.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-4">
                     We provide professional installation for residential carpet, commercial carpet, and carpet tiles, including residential homes, retail, commercial spaces, stairs, and condos.
                   </p>
                   <p className="text-gray-600 leading-relaxed mb-6">
