@@ -99,6 +99,15 @@ export default async function ServiceDetailPage({
                     Every staircase is unique. Each one requires careful planning, precision, and uncompromising attention to detail, where every cut, angle and transition works together to create a flawless result. The finished staircase becomes more than a functional feature. It becomes a defining architectural element that elevates the beauty and sophistication of the entire home.
                   </p>
                 </>
+              ) : service.slug === "vinyl" ? (
+                <>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Vinyl flooring blends modern style with exceptional durability and 100% waterproof performance. Available in SPC, LVT, loose lay, and more, it offers outstanding versatility with a wide range of colours, textures, and wood looks to complement virtually any space.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-6">
+                    Because it's thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years.
+                  </p>
+                </>
               ) : (
                 <p className="text-gray-600 mb-6">
                   {service.slug === "self-levelling"
@@ -107,8 +116,6 @@ export default async function ServiceDetailPage({
                     ? "We provide professional hardwood flooring installation for engineered and solid hardwood, including floating, glue-down, nail-down, unfinished, and pre-finished options, with proper preparation and lasting craftsmanship."
                     : service.slug === "laminate"
                     ? "Laminate flooring delivers the warmth and character of hardwood without the high maintenance. A beautiful finish starts with proper floor prep, precise layout, tight locking joints, and careful attention to every detail, creating a floor that looks beautiful, feels solid underfoot, and is built to perform for years."
-                    : service.slug === "vinyl"
-                    ? "Vinyl flooring blends modern style with exceptional durability and 100% waterproof performance. Available in SPC, LVT, loose lay, and more, it offers outstanding versatility with a wide range of colours, textures, and wood looks to complement virtually any space. Because it's thinner and more flexible, a smooth, flat, properly prepped subfloor is key to a flawless finish. With precise layout and expert installation, the result is a beautiful floor that feels solid underfoot and performs for years."
                     : service.slug === "mouldings"
                     ? "It's the finishing touch that brings the whole room together. From baseboards and casings to moldings, every detail is carefully fitted, smoothly caulked, professionally painted, and finished with precision, creating clean lines and a polished look."
                     : `Add detailed information about ${service.title.toLowerCase()} here. Describe the process, benefits, and why this service is important for your flooring needs. Include pricing information, timelines, and any special considerations.`}
