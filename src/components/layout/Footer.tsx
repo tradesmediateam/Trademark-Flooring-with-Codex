@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site, serviceAreas, telHref, estimateMailto } from "@/lib/site";
+import { site, serviceAreas, telHref } from "@/lib/site";
 import { mainNav } from "@/lib/navigation";
 import { services } from "@/lib/services";
 import { Logo } from "@/components/ui/Logo";
@@ -94,13 +94,13 @@ export function Footer() {
               {serviceAreas.join(" · ")} and throughout {site.address.regionName}.
             </p>
             <div className="mt-6 flex flex-col gap-3">
-              <a
-                href={estimateMailto}
+              <Link
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700"
               >
                 <MailIcon className="h-4 w-4" />
                 Free In-Home Estimate
-              </a>
+              </Link>
               <a
                 href={telHref}
                 className="inline-flex items-center justify-center gap-2 rounded-lg border border-ink-700 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-ink-800"
